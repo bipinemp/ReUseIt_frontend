@@ -1,3 +1,4 @@
+import Navbar from "../components/dashboard/Navbar";
 import Sidebar from "../components/dashboard/Sidebar";
 
 export default function RootLayout({ children }) {
@@ -5,6 +6,7 @@ export default function RootLayout({ children }) {
     <main className="flex gap-7 bg-mode-light h-screen">
       <Sidebar />
       {children}
+      <Navbar />
     </main>
   );
 }
