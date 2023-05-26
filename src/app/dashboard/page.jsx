@@ -4,7 +4,7 @@ import { GiReceiveMoney } from "react-icons/gi";
 import { FaUsers } from "react-icons/fa";
 import { ImCart } from "react-icons/im";
 
-function page() {
+function Page() {
   const cards = [
     {
       name: "Revenue",
@@ -59,4 +59,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 
-function page() {
+function Page() {
   const pathname = usePathname();
   const modifiedPathname = pathname.split("/");
   const [path, _] = useState(modifiedPathname);
@@ -16,4 +16,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
