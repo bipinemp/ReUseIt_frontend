@@ -49,6 +49,10 @@ function Sidebar() {
       >
         ReUseIt Dashboard
       </h1>
+      <div>
+        <Link href="/dashboard/products">Products</Link>
+        <Link href="/dashboard/messages">Messages</Link>
+      </div>
       <nav className="flex flex-col">
         {navLinks.map((link) => {
           const isActive = pathname === link.href;
