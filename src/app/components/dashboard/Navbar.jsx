@@ -15,12 +15,12 @@ function Navbar() {
           placeholder="Type here..."
         />
       </div>
-      <div className="flex gap-3 items-center text-text-secondary">
+      <div className="flex gap-4 items-center text-text-secondary">
         <Link href="#" className="flex gap-1 items-center">
-          <FaUser fontSize={20} /> Sign In
+          <FaUser fontSize={16} /> &nbsp;Sign In
         </Link>
         <Link href="#">
-          <AiFillSetting fontSize={20} />
+          <AiFillSetting fontSize={18} />
         </Link>
         <Link href="#">
           <IoMdNotifications fontSize={20} />
