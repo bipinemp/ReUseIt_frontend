@@ -116,12 +116,8 @@ function LineChart() {
     },
   };
   return (
-    <div
-      className="cursor-pointer bg-mode-extralight mt-10 shadow-lg py-7 px-5 rounded-lg"
-      style={{
-        height: "400px",
-      }}
-    >
+    <div className="flex flex-col gap-4 cursor-pointer bg-mode-extralight mt-10 shadow-lg py-7 px-5 rounded-lg">
+      <h1 className="h1">Sales Overview</h1>
       <Line className="w-normal" data={data} options={options}></Line>
     </div>
   );

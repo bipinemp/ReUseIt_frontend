@@ -3,10 +3,14 @@ import Sidebar from "../components/dashboard/Sidebar";
 
 export default function RootLayout({ children }) {
   return (
-    <main className="flex gap-7 bg-mode-light h-screen">
-      <Sidebar />
-      {children}
-      <Navbar />
+    <main className="relative w-full flex flex-row bg-mode-light">
+      <div className="fixed">
+        <Sidebar />
+      </div>
+      <section className="flex flex-1 flex-col ml-72">
+        <Navbar />
+        <div>{children}</div>
+      </section>
     </main>
   );
 }
