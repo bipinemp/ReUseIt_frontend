@@ -1,4 +1,3 @@
-"use client";
 import LineChart from "../components/LineChart";
 import { GiReceiveMoney } from "react-icons/gi";
 import { FaUsers } from "react-icons/fa";
